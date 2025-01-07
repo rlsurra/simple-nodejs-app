@@ -13,3 +13,4 @@ permissions:
 jobs:
   ci:
     uses: rlsurra/org-core-workflows/.github/workflows/openshift-ci-onpremise.yml@main
+    secrets: inherit
