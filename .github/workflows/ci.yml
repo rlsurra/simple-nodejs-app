@@ -6,6 +6,9 @@ on:
         - main
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   ci:
     uses: rlsurra/org-core-workflows/.github/workflows/openshift-ci-onpremise.yml@main
